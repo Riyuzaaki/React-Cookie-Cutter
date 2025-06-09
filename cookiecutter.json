@@ -1,0 +1,13 @@
+{
+  "project_name": "my-react-app",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_description": "A modern React application",
+  "author_name": "Your Name",
+  "author_email": "your.email@example.com",
+  "github_username": "yourusername",
+  "year": "{% now 'utc', '%Y' %}",
+  "license": ["MIT", "Apache-2.0", "GPL-3.0"],
+  "use_typescript": ["yes", "no"],
+  "use_router": ["yes", "no"],
+  "use_tailwind": ["yes", "no"]
+} 
